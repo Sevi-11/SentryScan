@@ -1,4 +1,4 @@
-# Human Tracker
+# Human Detection and Tracking
 
 Tracks people in a video, detects when they enter/exit a defined "kill zone," and logs how long each person spent inside it.
 
