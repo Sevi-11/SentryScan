@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.idea/
+
+# model weights
+*.pt
+
+# video data/output (large binaries)
+data/
+*.mp4
+*.avi
