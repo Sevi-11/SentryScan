@@ -9,3 +9,22 @@ __pycache__/
 data/
 *.mp4
 *.avi
+*.mov
+*.mkv
+*.webm
+
+# backend runtime storage (uploads, job outputs, sqlite db)
+backend/storage/uploads/
+backend/storage/outputs/
+backend/storage/*.db
+
+# node
+node_modules/
+.next/
+
+# python virtual envs
+venv/
+.venv/
+
+# local session state
+.claude/scheduled_tasks.lock

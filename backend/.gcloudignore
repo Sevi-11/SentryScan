@@ -1,0 +1,15 @@
+# Overrides the root .gitignore's `*.pt` rule for Cloud Build's upload — yolov8n.pt
+# has to be included since the Dockerfile COPYs it into the image.
+.gcloudignore
+.git
+.gitignore
+
+venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+storage/uploads/
+storage/outputs/
+storage/*.db
