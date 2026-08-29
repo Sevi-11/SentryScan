@@ -1,6 +1,6 @@
 # SentryScan — Detect. Track. Protect.
 
-Human detection and tracking, formerly known as HuDeTra.
+Human detection and tracking.
 
 Tracks people in a video, detects when they enter/exit a zone you define, and keeps a record of where each person went and how long they stayed. Ships two ways:
 
